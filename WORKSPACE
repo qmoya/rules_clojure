@@ -1,7 +1,7 @@
 workspace(name = "rules_clojure")
 
-RULES_JVM_EXTERNAL_TAG = "4.5"
-RULES_JVM_EXTERNAL_SHA = "b17d7388feb9bfa7f2fa09031b32707df529f26c91ab9e5d909eb1676badd9a6"
+RULES_JVM_EXTERNAL_TAG = "6.2"
+RULES_JVM_EXTERNAL_SHA = "aa39ecd47e16d5870eba817fe71476802bc371fe2724a2ddee565992df55f4af"
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
